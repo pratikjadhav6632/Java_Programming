@@ -4,6 +4,8 @@ class Hello{
 
         int age=20;
         var name="Pratik";
+        float marks=98.12;
+        System.out.println(marks);
         System.out.println(name);
         System.out.println(age);
 
