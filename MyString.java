@@ -1,5 +1,6 @@
 public class MyString {
     public static void main(String[] args){
+        
         String name ="Pratik";
         System.out.println(name);
 
@@ -11,13 +12,18 @@ public class MyString {
 
         System.out.println(mystudent.Name);
 
-        String a=new String("Ram"); //assign new memory location
-        String b= new String("Ram"); //assign new memory location
+        String a=new String("Ram"); //assign new memory reference
+        String b= new String("Ram"); //assign new memory reference
 
-        String c="Ram"; //assign same memory location
-        String d="Ram"; //assign same memory location
+        String c="Ram"; //assign same memory reference
+        String d="Ram"; //assign same memory reference
 
-        System.out.println(a==b);//false
+        //String comparison
+
+        System.out.println(a==b);//false (==) It checks reference
+
+        System.out.println(a.equals(b));//true  (.equals()) it checks value
+
         System.out.println(c==d);//true 
 
     }
