@@ -4,6 +4,9 @@ public class Methods {
         // create sum method
         System.out.println(sum(1, 2));
 
+        //Method overloading (same method name with diff parameters);
+        System.out.println(sum(1, 2,5));
+
         // multiple args
         System.out.println(Msum(3, 100, 34, 54, 1000));
 
@@ -14,6 +17,11 @@ public class Methods {
 
     public static int sum(int a, int b) {
         return a + b;
+    }
+
+    //Method overloading (same method name with diff parameters);
+    public static int sum(int a,int b,int c){
+        return a+b+c;
     }
 
     public static int Msum(int... a) {
@@ -34,4 +42,6 @@ public class Methods {
         }
         return res == 2;
     }
+
+    
 }
