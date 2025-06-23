@@ -32,16 +32,14 @@ public class Methods {
         return sum;
     }
 
-    public static boolean Prime(int x) {
-        int res = 0;
-        for (int i = 1; i <= x ; i++) {
-            if (x % i == 0) {
+    public static boolean Prime(int x){
+        int res=0;
+        for(int i=1;i<=x;i++){
+            if(x%i==2){
                 res++;
             }
-            
         }
-        return res == 2;
+        return res==2;
     }
-
     
 }
