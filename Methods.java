@@ -13,6 +13,8 @@ public class Methods {
         // check n Prime numbers
         System.out.println(Prime(13));
         System.out.println(Prime(12));
+
+        System.out.println(Fact(6));
     }
 
     public static int sum(int a, int b) {
@@ -40,6 +42,15 @@ public class Methods {
             }
         }
         return res==2;
+    }
+
+    public static int Fact(int x){
+        int res=1;
+        while(x>0){
+            res=res*x;
+            x--;
+        }
+        return res;
     }
     
 }
