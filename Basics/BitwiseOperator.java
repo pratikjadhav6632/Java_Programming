@@ -1,3 +1,5 @@
+package Basics;
+
 public class BitwiseOperator {
     public static void main(String[] args) {
         int a = 5;// 101

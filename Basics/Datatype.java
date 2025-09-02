@@ -1,3 +1,5 @@
+package Basics;
+
 public class Datatype {
     public static void main(String[]args){
         byte num=1;

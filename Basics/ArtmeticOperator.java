@@ -1,3 +1,4 @@
+package Basics;
 public class ArtmeticOperator {
     public static void main(String[] args) {
         int a = 5;
