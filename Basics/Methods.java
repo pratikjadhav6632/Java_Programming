@@ -50,6 +50,7 @@ public class Methods {
         int res=1;
         while(x>0){
             res=res*x;
+            
             x--;
         }
         return res;
