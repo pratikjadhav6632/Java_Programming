@@ -1,7 +1,8 @@
 package Basics;
+import java.util.*;
 public class Array {
     public static void main(String[] args) {
-
+        Scanner sc=new Scanner(System.in);
         // Array
 
         // 1-D Array
@@ -82,5 +83,17 @@ public class Array {
         }
         System.out.println("Sum of array is : " + sum);
 
+        int x=5;
+        int num[]=new int[5];
+        for(int i=0;i<num.length;i++){
+            System.out.println("num on :"+i);
+            num[i]=sc.nextInt();
+        }
+
+        for(int i=0;i<num.length;i++){
+            if(num[i]==x){
+                System.out.println("X is on Index:" + i);
+            }
+        }
     }
 }
