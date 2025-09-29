@@ -14,12 +14,16 @@ public class Animal {
    public void type(){
     System.out.println("Animal");
    }
+
+   public void type(String type){ //method overloading
+    System.out.println(type);
+   }
    
 }
 class Dog extends Animal{
     String name="Dobby";
     String Type="Hybrid";
-      public static void sound(){
+      public static void sound(){ //method overriding
             System.out.println("woof");
         }
     public static void main(String[] args) {  
@@ -27,7 +31,7 @@ class Dog extends Animal{
         Dobby.eat();
         sound();
         Dobby.type();
-        Dobby.sound("woofffff");
+        Dobby.sound("woofffff"); 
     }
 
 }
